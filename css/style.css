@@ -48,10 +48,10 @@ License: copyright commercial
 @import url("tm-bs-mp.css");
 @import url("tm-utility-classes.css");
 :root {
-  --theme-color1: #ff5500;
-  --theme-color2: #232331;
-  --theme-color3: #0f2c49;
-  --theme-color4: #ff5e08;
+  --theme-color1: #fe0202;
+  --theme-color2: #000081;
+  --theme-color3: #03032e;
+  --theme-color4: #fe0202;
   --theme-color5: #ff494a;
   --review-color: #ffc737;
   --bg-theme-color1: var(--theme-color1);
@@ -69,7 +69,7 @@ License: copyright commercial
   --theme-color-light: #ffffff;
   --theme-color-dark: #000000;
   --text-color: #767676;
-  --headings-color: var(--theme-color3);
+  --headings-color: var(--theme-color2);
   --link-color: var(--theme-color1);
   --link-hover-color: var(--theme-color1);
   --text-font: "Poppins", sans-serif;
@@ -97,7 +97,7 @@ License: copyright commercial
   --sec-title-subtitle-font-family: var(--title-font);
   --sec-title-subtitle-font-weight: 500;
   --sec-title-subtitle-line-height: 20px;
-  --sec-title-color: var(--theme-color3);
+  --sec-title-color: var(--theme-color2);
   --sec-title-font-size: var(--h2-font-size);
   --sec-title-font-family: var(--title-font);
   --sec-title-font-weight: var(--h2-font-weight);
@@ -3057,7 +3057,7 @@ Scroll To Top style
   padding: 30px 0;
 }
 .main-header.header-style-four .header-lower {
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color3);
 }
 .main-header.header-style-four .header-lower:before {
   background-color: var(--theme-color1);
@@ -9184,7 +9184,7 @@ Section Title
 ====================================================================
 ***/
 .why-choose-us-three {
-  background-color: var(--bg-theme-color1);
+  background-color: var(--bg-theme-color3);
   padding: 120px 0 0;
   position: relative;
   z-index: 1;
